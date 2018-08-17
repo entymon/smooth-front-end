@@ -1,5 +1,5 @@
 import React from 'react';
-import './Home.css'
+import './Home.scss'
 import ProgrammerImage from '../assets/images/programmer.png'
 
 export default class Home extends React.Component {
