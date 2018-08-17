@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom'
 import './Menu.css'
 import { PORTFOLIO, ROUTES } from '../constants/constants';
 
-// @connect((store) => {
-// 	return {
-// 		link: store.mainMenu.menuLink
-// 	}
-// })
+@connect((store) => {
+	return {
+		link: store.mainMenu.menuLink
+	}
+})
 export default class Menu extends React.Component {
 	
 	linkHandler = () => {
