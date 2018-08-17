@@ -1,4 +1,5 @@
 import React from 'react';
+import './CV.css';
 
 /**
  * Good to create plugin for wordpress to create CVs
@@ -6,6 +7,12 @@ import React from 'react';
 export default class CV extends React.Component {
 	
 	render = () => {
-		return (<div>CV page</div>);
+		return (
+			<div className='container'>
+				<div className="details">
+				
+				</div>
+			</div>
+		);
 	}
 }
