@@ -1,3 +1,5 @@
+@import "../assets/styles/Definitions";
+
 .home-container {
   display: flex;
   flex-direction: column;
@@ -39,9 +41,7 @@
     justify-content: center;
 
     .text {
-      font-size: 20px;
-      line-height: 32px;
-      letter-spacing: 2px;
+      @include fontStyle1();
       text-align: center;
       align-self: center;
       flex: 2 0;

@@ -1,0 +1,12 @@
+$mainFont: "Roboto Condensed", sans-serif;
+
+
+$fontSizeHome: 20px;
+
+
+@mixin fontStyle1() {
+  font-family: $mainFont;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 32px;
+}

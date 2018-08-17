@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom'
-import './Menu.css'
+import './Menu.scss'
 import { ROUTES } from '../constants/constants';
 import { makeActiveLink } from '../store/actions/MenuAction';
 

@@ -8,9 +8,9 @@ export default class CV extends React.Component {
 	
 	render = () => {
 		return (
-			<div className='container'>
-				<div className="details test">
-					kupa
+			<div className="container">
+				<div className="details">
+				
 				</div>
 			</div>
 		);
