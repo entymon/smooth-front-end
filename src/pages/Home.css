@@ -1,0 +1,33 @@
+.home-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home-container .story-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.home-container .story-container .image > img {
+    width: 170px;
+}
+.home-container .story-container .story {
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-container .story-container .story > p.headline {
+    margin: 70px 0 35px;
+    font-family: "Caveat", sans-serif;
+    font-size: 48px;
+}
+.home-container .story-container .story > p.text {
+    font-family: "Caveat", sans-serif;
+    font-size: 42px;
+}
+.home-container .experience-container {
+
+}
