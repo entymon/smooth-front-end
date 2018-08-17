@@ -40,7 +40,39 @@ export default class Home extends React.Component {
 				<hr className="divider"/>
 				
 				<div className="experience-container">
-					test
+					<div>
+						I am working on something you can see - it's Front end development (enthusiasm)
+					</div>
+					<div>
+						In general this is visualisation of your imagination ... almost ;-)
+					</div>
+				</div>
+				
+				<hr className="divider"/>
+				
+				<div className="experience-container">
+					<div>
+						I am working on something you perhaps don't know if this exist at all - it's Back end development (surprised, confused)
+					</div>
+					<div>
+						There are your users behind firewalls, security blocks, under full protection who are accepted your rules and privacy policy.
+					</div>
+				</div>
+				
+				<hr className="divider"/>
+				
+				<div>
+					-----
+					How can I help to you
+					<p>
+						I can help mange thing /  I can motivate you etc
+					</p>
+					<p>
+						I am connecting people
+					</p>
+					<p>
+						I am cooperate with
+					</p>
 				</div>
 			</div>
 		);
