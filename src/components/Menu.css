@@ -1,0 +1,30 @@
+.main-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.main-menu .company-name {
+    font-family: "Caveat", sans-serif;
+    font-size: 30px;
+}
+.main-menu .menu-item {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 0 10px;
+}
+.main-menu .menu-item > a.link {
+    font-size: 18px;
+    display: flex;
+    padding-bottom: 0;
+    border-bottom: 0;
+    transition: all .2s;
+}
+.main-menu .menu-item > a.link.active {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #232323;
+}
+.main-menu .menu-item > a.link:hover {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #232323;
+}
