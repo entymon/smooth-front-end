@@ -3,5 +3,5 @@ export const ROUTES = {
 	WORK_RANGE: 'work-range',
 	CV: 'cv',
 	PORTFOLIO: 'portfolio',
-	BLOG: 'portfolio',
+	BLOG: 'blog',
 };
